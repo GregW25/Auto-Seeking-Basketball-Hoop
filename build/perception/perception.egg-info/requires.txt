@@ -1,0 +1,7 @@
+setuptools
+rclpy
+ultralytics
+numpy
+
+[test]
+pytest

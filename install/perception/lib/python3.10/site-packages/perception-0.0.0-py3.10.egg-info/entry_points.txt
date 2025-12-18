@@ -1,0 +1,10 @@
+[console_scripts]
+aruco_tf = perception.aruco_base_tf_publisher:main
+ball_tracker = perception.logitech_ball_publisher:main
+cam2_tf = perception.cam1_cam2_tf_publisher:main
+cone_publisher = perception.cone_publisher:main
+image_subscriber = perception.image_subscriber:main
+rs_node = perception.rs_node:main
+tool_tf = perception.tool_cam_tf_publisher:main
+trajectory_calculator = perception.trajectory_calculator:main
+yolo_rs_pc_detector = perception.yolo_rs_pc_detector:main

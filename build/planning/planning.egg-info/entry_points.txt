@@ -1,0 +1,9 @@
+[console_scripts]
+cam2_tf = perception.cam2_tf_publisher:main
+catch = planning.catching:main
+catch_pyroki = planning.catch_pyroki:main
+ik = planning.ik:main
+ik_pyroki = planning.ik_pyroki:main
+main = planning.main:main
+tf = planning.static_tf_transform:main
+transform_cube_pose = planning.transform_cube_pose:main
